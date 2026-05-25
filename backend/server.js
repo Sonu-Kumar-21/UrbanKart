@@ -31,11 +31,19 @@ const RAZORPAY_KEY_SECRET = process.env.RAZORPAY_KEY_SECRET || '';
 
 // --- Middlewares ---
 app.use(cors({
-  origin: [
-    'https://urban-kart-356i.vercel.app',
-    'https://urban-kart-356i-4dvieicw8-shivam-singhs-projects-a68fa49b.vercel.app',
-    'http://localhost:5173'
-  ],
+  origin: function (origin, callback) {
+    const allowedOrigins = [
+      'http://localhost:5173',
+      'https://urban-kart-356i.vercel.app'
+    ];
+    // Allow requests with no origin (like mobile apps or curl requests)
+    // and allow any frontend hosted on Render
+    if (!origin || allowedOrigins.includes(origin) || origin.endsWith('.onrender.com')) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
   credentials: true
 }));
 app.use(express.json());
