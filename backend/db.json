@@ -1,0 +1,404 @@
+{
+  "users": [
+    {
+      "id": "1763228320107",
+      "name": "Shivam Singh",
+      "email": "shivamsingh08443@gmail.com",
+      "password": "$2b$10$68ZcQCTyVWBP3UK.8Z53ZO4B2QZ073kboyBDam3NJy0UbLuoaF9Em",
+      "role": "admin",
+      "createdAt": "2025-11-15T17:38:40.107Z"
+    },
+    {
+      "id": "1763228363414",
+      "name": "karan singh",
+      "email": "karansingh08843@gmail.com",
+      "password": "$2b$10$x2Hv5TC52pImva6B1aiZ8uhtJjOWHhHhu4o2jUdY.lfDQF9ozE/ey",
+      "role": "user",
+      "createdAt": "2025-11-15T17:39:23.414Z"
+    },
+    {
+      "id": "1763228489516",
+      "name": "neha kumar",
+      "email": "neha333@gmail.com",
+      "password": "$2b$10$nGgt.0Cm.71jMk1YjHCH3.DHUhXqRr1gHKFV2Pair0e5p8HWDYiPy",
+      "role": "user",
+      "createdAt": "2025-11-15T17:41:29.516Z"
+    },
+    {
+      "id": "1763228543688",
+      "name": "sonu kumar",
+      "email": "jhasonu9876@gmail.com",
+      "password": "$2b$10$SKWRbuH2kZwbjHGmqPhjYe2qi0OdRqpSQAJ08mIhbZ3rP/.PjrzcC",
+      "role": "user",
+      "createdAt": "2025-11-15T17:42:23.688Z"
+    }
+  ],
+  "refreshTokens": [
+    {
+      "userId": "1763228320107",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjE3NjMyMjgzMjAxMDciLCJlbWFpbCI6InNoaXZhbXNpbmdoMDg0NDNAZ21haWwuY29tIiwiaWF0IjoxNzYzMjI5MzU5LCJleHAiOjE3NjM4MzQxNTl9.YHKzSoVC3zAJkBH0UrbpT2OMVECeGHtwVZW9BWiKDJc",
+      "createdAt": "2025-11-15T17:55:59.330Z"
+    }
+  ],
+  "carts": [
+    {
+      "userId": "1763228320107",
+      "items": []
+    },
+    {
+      "userId": "1763228363414",
+      "items": []
+    },
+    {
+      "userId": "1763228489516",
+      "items": []
+    },
+    {
+      "userId": "1763228543688",
+      "items": []
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-1763228437659",
+      "userId": "1763228363414",
+      "items": [
+        {
+          "productId": "p04",
+          "name": "Solid Oak Vanity Cabinet",
+          "price": 8999,
+          "image": "https://placehold.co/600x600/e2e8f0/334155?text=Cabinet",
+          "quantity": 1
+        },
+        {
+          "productId": "p05",
+          "name": "Chrome Shower Head",
+          "price": 1899,
+          "image": "https://placehold.co/600x600/e2e8f0/334155?text=Shower",
+          "quantity": 1
+        },
+        {
+          "productId": "p06",
+          "name": "DrillMaster Pro 18V",
+          "price": 4500,
+          "image": "https://placehold.co/600x600/e2e8f0/334155?text=Drill",
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "fullName": "karan singh",
+        "phone": "8586865123",
+        "address": "13/123 TRILOK PURI",
+        "city": "east delhi",
+        "state": "Delhi",
+        "pincode": "110091"
+      },
+      "paymentMethod": "cod",
+      "paymentId": null,
+      "totalAmount": 15398,
+      "status": "processing",
+      "paymentStatus": "pending",
+      "createdAt": "2025-11-15T17:40:37.659Z",
+      "updatedAt": "2025-11-15T17:41:04.936Z"
+    },
+    {
+      "id": "ORD-1763228517956",
+      "userId": "1763228489516",
+      "items": [
+        {
+          "productId": "p05",
+          "name": "Chrome Shower Head",
+          "price": 1899,
+          "image": "https://placehold.co/600x600/e2e8f0/334155?text=Shower",
+          "quantity": 1
+        },
+        {
+          "productId": "p02",
+          "name": "Titan Grip Steel Wrench",
+          "price": 849,
+          "image": "https://placehold.co/600x600/e2e8f0/334155?text=Wrench",
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "fullName": "neha kumar",
+        "phone": "8586865123",
+        "address": "13/123 TRILOK PURI",
+        "city": "east delhi",
+        "state": "Delhi",
+        "pincode": "110091"
+      },
+      "paymentMethod": "cod",
+      "paymentId": null,
+      "totalAmount": 2748,
+      "status": "delivered",
+      "paymentStatus": "pending",
+      "createdAt": "2025-11-15T17:41:57.956Z",
+      "updatedAt": "2025-11-15T17:43:33.615Z"
+    },
+    {
+      "id": "ORD-1763228566949",
+      "userId": "1763228543688",
+      "items": [
+        {
+          "productId": "p01",
+          "name": "AquaFlow Premium Faucet",
+          "price": 1299,
+          "image": "https://placehold.co/600x600/e2e8f0/334155?text=Faucet",
+          "quantity": 1
+        },
+        {
+          "productId": "p03",
+          "name": "Everlast Wall Paint - Silk White",
+          "price": 1550,
+          "image": "https://placehold.co/600x600/e2e8f0/334155?text=Paint",
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "fullName": "sonu kumar",
+        "phone": "8448637681",
+        "address": "nagloi",
+        "city": "east delhi",
+        "state": "Delhi",
+        "pincode": "110091"
+      },
+      "paymentMethod": "cod",
+      "paymentId": null,
+      "totalAmount": 2849,
+      "status": "confirmed",
+      "paymentStatus": "pending",
+      "createdAt": "2025-11-15T17:42:46.949Z",
+      "updatedAt": "2025-11-15T17:43:22.069Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "p01",
+      "name": "AquaFlow Premium Faucet",
+      "price": 1299,
+      "category": "Sanitary",
+      "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=600&q=80",
+      "description": "A high-quality, chrome-finished faucet with dual-flow technology. Easy to install and built to last.",
+      "featured": true,
+      "reviews": [
+        {
+          "rating": 5,
+          "author": "John D.",
+          "date": "2025-08-15",
+          "comment": "Excellent quality and looks fantastic in my new bathroom."
+        },
+        {
+          "rating": 4,
+          "author": "Jane S.",
+          "date": "2025-08-12",
+          "comment": "Works great, but the installation was a bit tricky."
+        }
+      ]
+    },
+    {
+      "id": "p02",
+      "name": "Titan Grip Steel Wrench",
+      "price": 849,
+      "category": "Hardware",
+      "image": "https://images.unsplash.com/photo-1541604193435-22287d32c2c2?auto=format&fit=crop&w=600&q=80",
+      "description": "Forged from high-carbon steel, this adjustable wrench provides maximum torque and grip.",
+      "featured": false,
+      "reviews": [
+        {
+          "rating": 5,
+          "author": "Mike R.",
+          "date": "2025-07-20",
+          "comment": "A solid, heavy-duty wrench. An essential for any toolbox."
+        }
+      ]
+    },
+    {
+      "id": "p03",
+      "name": "Everlast Wall Paint - Silk White",
+      "price": 1550,
+      "category": "Paints",
+      "image": "https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=600&q=80",
+      "description": "A premium, low-VOC interior paint with a smooth silk finish. One coat provides excellent coverage.",
+      "featured": true,
+      "reviews": [
+        {
+          "rating": 5,
+          "author": "Sarah L.",
+          "date": "2025-09-01",
+          "comment": "Beautiful color and amazing coverage. Only needed one coat!"
+        }
+      ]
+    },
+    {
+      "id": "p04",
+      "name": "Solid Oak Vanity Cabinet",
+      "price": 8999,
+      "category": "Sanitary",
+      "image": "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&w=600&q=80",
+      "description": "A beautifully crafted solid oak vanity for modern bathrooms. Features soft-close drawers.",
+      "featured": true,
+      "reviews": []
+    },
+    {
+      "id": "p05",
+      "name": "Chrome Shower Head",
+      "price": 1899,
+      "category": "Sanitary",
+      "image": "https://images.unsplash.com/photo-1606112521190-dcb747abdcce?auto=format&fit=crop&w=600&q=80",
+      "description": "Experience a spa-like shower with 5 different spray settings. Made from rust-proof chrome.",
+      "featured": false,
+      "reviews": []
+    },
+    {
+      "id": "p06",
+      "name": "DrillMaster Pro 18V",
+      "price": 4500,
+      "category": "Hardware",
+      "image": "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=600&q=80",
+      "description": "A powerful and versatile 18V cordless drill. Comes with two batteries and a charger.",
+      "featured": true,
+      "reviews": []
+    },
+    {
+      "id": "p07",
+      "name": "Royal Blue Gloss Paint",
+      "price": 1750,
+      "category": "Paints",
+      "image": "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=600&q=80",
+      "description": "A vibrant, high-gloss enamel paint perfect for doors, trim, and furniture.",
+      "featured": false,
+      "reviews": []
+    },
+    {
+      "id": "p08",
+      "name": "Hex Bolt Assortment Kit",
+      "price": 999,
+      "category": "Hardware",
+      "image": "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?auto=format&fit=crop&w=600&q=80",
+      "description": "A 250-piece assortment of the most common hex bolts, nuts, and washers.",
+      "featured": false,
+      "reviews": []
+    },
+    {
+      "id": "p09",
+      "name": "Luxe Bathtub Freestanding",
+      "price": 24500,
+      "category": "Sanitary",
+      "image": "https://images.unsplash.com/photo-1585058178120-e4b2d1d05322?auto=format&fit=crop&w=600&q=80",
+      "description": "An elegant freestanding bathtub made from high-quality acrylic, perfect for long relaxing soaks.",
+      "featured": true,
+      "reviews": []
+    },
+    {
+      "id": "p10",
+      "name": "Heavy Duty Hammer",
+      "price": 550,
+      "category": "Hardware",
+      "image": "https://images.unsplash.com/photo-1586864387789-628af9feed72?auto=format&fit=crop&w=600&q=80",
+      "description": "A durable claw hammer with a shock-absorbing fiberglass handle for maximum comfort.",
+      "featured": false,
+      "reviews": []
+    },
+    {
+      "id": "p11",
+      "name": "Matte Black Basin Mixer",
+      "price": 2100,
+      "category": "Sanitary",
+      "image": "https://images.unsplash.com/photo-1613149864273-0972322a3fc2?auto=format&fit=crop&w=600&q=80",
+      "description": "A sleek, modern basin mixer finished in premium matte black. Resistant to fingerprints and water spots.",
+      "featured": true,
+      "reviews": []
+    },
+    {
+      "id": "p12",
+      "name": "Precision Screwdriver Set",
+      "price": 799,
+      "category": "Hardware",
+      "image": "https://images.unsplash.com/photo-1535492425575-b3a1a9e6bb07?auto=format&fit=crop&w=600&q=80",
+      "description": "A 15-piece precision screwdriver set for electronics repair and fine mechanical work.",
+      "featured": false,
+      "reviews": []
+    },
+    {
+      "id": "p13",
+      "name": "Forest Green Matte Paint",
+      "price": 1650,
+      "category": "Paints",
+      "image": "https://images.unsplash.com/photo-1563220464-1598f8b0ebc9?auto=format&fit=crop&w=600&q=80",
+      "description": "Deep, rich forest green paint offering a contemporary matte finish for feature walls.",
+      "featured": true,
+      "reviews": []
+    },
+    {
+      "id": "p14",
+      "name": "Ceramic Wash Basin",
+      "price": 3200,
+      "category": "Sanitary",
+      "image": "https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=600&q=80",
+      "description": "A beautifully glazed ceramic wash basin featuring an anti-bacterial coating and minimalist design.",
+      "featured": false,
+      "reviews": []
+    },
+    {
+      "id": "p15",
+      "name": "Professional Tape Measure",
+      "price": 450,
+      "category": "Hardware",
+      "image": "https://images.unsplash.com/photo-1634842512613-2d2572b0c406?auto=format&fit=crop&w=600&q=80",
+      "description": "A 5-meter professional tape measure with an auto-lock mechanism and highly visible markings.",
+      "featured": false,
+      "reviews": []
+    },
+    {
+      "id": "p16",
+      "name": "Sunset Orange Acrylic Paint",
+      "price": 1850,
+      "category": "Paints",
+      "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=600&q=80",
+      "description": "A vibrant acrylic wall paint providing incredible weather resistance and longevity.",
+      "featured": false,
+      "reviews": []
+    },
+    {
+      "id": "p17",
+      "name": "Dual Flush Toilet Suite",
+      "price": 12500,
+      "category": "Sanitary",
+      "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=600&q=80",
+      "description": "A water-saving dual flush toilet suite with a soft-close seat and rimless pan technology.",
+      "featured": true,
+      "reviews": []
+    },
+    {
+      "id": "p18",
+      "name": "Electric Angle Grinder",
+      "price": 3100,
+      "category": "Hardware",
+      "image": "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?auto=format&fit=crop&w=600&q=80",
+      "description": "A high-performance angle grinder designed for cutting, grinding, and polishing metal or stone.",
+      "featured": true,
+      "reviews": []
+    },
+    {
+      "id": "p19",
+      "name": "Primer Sealer Undercoat",
+      "price": 1200,
+      "category": "Paints",
+      "image": "https://images.unsplash.com/photo-1562259929-b7e181d14051?auto=format&fit=crop&w=600&q=80",
+      "description": "A premium 3-in-1 primer, sealer, and undercoat that guarantees perfect adhesion for your topcoat.",
+      "featured": false,
+      "reviews": []
+    },
+    {
+      "id": "p20",
+      "name": "Thermostatic Shower Mixer",
+      "price": 4500,
+      "category": "Sanitary",
+      "image": "https://images.unsplash.com/photo-1564540586988-aa4e53c3d799?auto=format&fit=crop&w=600&q=80",
+      "description": "A thermostatic shower mixer valve ensuring constant water temperature regardless of pressure changes.",
+      "featured": true,
+      "reviews": []
+    }
+  ]
+}
